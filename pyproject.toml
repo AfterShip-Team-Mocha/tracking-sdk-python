@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "tracking-sdk"
+name = "aftership-tracking-sdk"
 version = "3.0.0"
 description = "The official AfterShip Tracking Python API library"
 authors = ["AfterShip <support@aftership.com>"]

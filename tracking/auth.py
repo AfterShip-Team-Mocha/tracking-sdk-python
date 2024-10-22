@@ -98,10 +98,10 @@ class Authenticator:
     def canonical_resource(cls, raw_url: str) -> str:
         """
         :param raw_url: str - raw request url.
-            Example : https://api.aftership.com/tracking/2024-04/trackings?key2=value2&key1=value1
+            Example : https://api.aftership.com/tracking/2024-10/trackings?key2=value2&key1=value1
 
         :return canonical_url: str - canonical request url.
-            Example :/tracking/2024-04/trackings?key1=value1&key2=value2
+            Example :/tracking/2024-10/trackings?key1=value1&key2=value2
         """
         u = url.parse_url(raw_url)
         resource = u.path
